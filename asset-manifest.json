@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tripmeter/static/css/main.76f981c9.chunk.css",
+    "main.js": "/tripmeter/static/js/main.358378fb.chunk.js",
+    "main.js.map": "/tripmeter/static/js/main.358378fb.chunk.js.map",
+    "runtime-main.js": "/tripmeter/static/js/runtime-main.3fe3020a.js",
+    "runtime-main.js.map": "/tripmeter/static/js/runtime-main.3fe3020a.js.map",
+    "static/css/2.7c82b480.chunk.css": "/tripmeter/static/css/2.7c82b480.chunk.css",
+    "static/js/2.8b650726.chunk.js": "/tripmeter/static/js/2.8b650726.chunk.js",
+    "static/js/2.8b650726.chunk.js.map": "/tripmeter/static/js/2.8b650726.chunk.js.map",
+    "static/js/3.b13a25b1.chunk.js": "/tripmeter/static/js/3.b13a25b1.chunk.js",
+    "static/js/3.b13a25b1.chunk.js.map": "/tripmeter/static/js/3.b13a25b1.chunk.js.map",
+    "index.html": "/tripmeter/index.html",
+    "static/css/2.7c82b480.chunk.css.map": "/tripmeter/static/css/2.7c82b480.chunk.css.map",
+    "static/css/main.76f981c9.chunk.css.map": "/tripmeter/static/css/main.76f981c9.chunk.css.map",
+    "static/js/2.8b650726.chunk.js.LICENSE.txt": "/tripmeter/static/js/2.8b650726.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fe3020a.js",
+    "static/css/2.7c82b480.chunk.css",
+    "static/js/2.8b650726.chunk.js",
+    "static/css/main.76f981c9.chunk.css",
+    "static/js/main.358378fb.chunk.js"
+  ]
+}
