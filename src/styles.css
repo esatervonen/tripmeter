@@ -2,16 +2,3 @@
     margin: 3%;
     background-color: #f7f7f7;
 }
-
-#header {
-    position: 'relative'; 
-    background-color: 'teal';
-    color: 'black'; 
-    font-weight:'bold'
-}
-
-#card {
-    color: black;
-    margin-top: 2px;
-    background-color: '#ebf2ff'
-}

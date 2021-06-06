@@ -7,7 +7,7 @@ const Barchart = (props) => {
             <BarChart margin={{top: 15, left: 0, right: 5, bottom: 25}} data={props.data}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
-                <YAxis tick={false}/>
+                <YAxis ticks={false} />
                 <Tooltip />
                 <Legend layout='horizontal' wrapperStyle={{bottom:25,left:0,position:'relative'}}/>
                 <Bar dataKey="Aika" fill="#82cddd" unit=' tuntia' />
