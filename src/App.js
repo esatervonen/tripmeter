@@ -24,6 +24,7 @@ const App = () => {
   // useEffect hook for controlling negative input values
   useEffect(() => {
     if (firstSpeedValue < 0) {
+      console.log(typeof firstSpeedValue)
       setFirstSpeed(0)
     } else if (firstSpeedValue > 200) {
       setFirstSpeed(200)
@@ -98,7 +99,7 @@ const App = () => {
   }
 
   return (
-    <Card style={{ margin: '3%', backgroundColor: '#f7f7f7' }}>
+    <Card style={{ margin: '1%', backgroundColor: '#f7f7f7' }}>
       <Card.Body>
         <Card.Header className='shadow' style={{ position: 'relative', backgroundColor: '#82cddd', fontWeight: 'bold', color: 'white' }}>
           AUTOILUMITTARI
@@ -148,7 +149,7 @@ const App = () => {
               <Card.Text>Säästät siis aikaa <b>{Math.floor(differences[1])} h {((differences[1] - Math.floor(differences[1])) * 60).toFixed()} min</b> ajamalla <b>{differences[0]} km/h</b> nopeammin, ja
               polttoainetta kuluu <b>{Math.floor(differences[2])},{((differences[2] - Math.floor(differences[2])) * 10).toFixed()} litraa</b> enemmän.</Card.Text>
             </Card> :
-              <Card className='p-3 my-2' style={{ backgroundColor: '#fafcff', height: 180 }}>
+              <Card className='p-3 my-2' style={{ backgroundColor: '#fafcff', height: 280 }}>
                 <Card.Text>Valitse autotyyppi kulutuksen mukaan pudotusvalikosta ja aseta matkan pituus. Kokeile eri nopeuksia nähdäksesi matka-ajan ja kuluneen polttoaineen määrän viereisessä kuvaajassa. </Card.Text>
               </Card>
           }

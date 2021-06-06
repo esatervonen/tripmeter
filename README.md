@@ -4,6 +4,6 @@ Sovellus suorittaa vertailun matka-ajan ja polttoaineen kulutuksen välillä kah
 
 Tarkoituksena oli tehdä sovellus, joka näyttää tulokset reaaliaikaisesti kun käyttäjä tekee muutoksia. Tekstin syöttökentät ja liukuvalitsimet hyväksyvät nopeusarvot 1- 200 ja etäisyysarvot 1-1000.
 
-Sovellus on tehty käyttäen React.js-kirjastoa ja ulkoasuun on käytetty React Bootstrap -kirjastoa.
+Sovellus on tehty käyttäen React.js-kirjastoa ja ulkoasuun on käytetty React Bootstrap -kirjastoa. Käyttöjärjestelmänä kehityksessä on ollut macOS 10.15.7
 
 Sovellus on pystytetty Github-pagesiin osoitteeseen: https://esatervonen.github.io/tripmeter/
